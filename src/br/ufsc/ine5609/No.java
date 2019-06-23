@@ -3,7 +3,6 @@ package br.ufsc.ine5609;
 import java.util.Vector;
 
 public class No {
-
     private int n; //Atributo que guarda a quantidade de chaves no nó
     private Vector<Integer> chave; //vetor das chaves
     private Vector<No> filho;//vetor dos filhos

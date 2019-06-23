@@ -1,7 +1,6 @@
 package br.ufsc.ine5609;
 
 public class BTree {
-
     //Atributos da Classe BTree
     private No raiz; //Atributo do Nó raiz;
     private int ordem; //Ordem da Arvore-B;
@@ -370,7 +369,7 @@ public class BTree {
     }
 
     //Metodo que retorna o nó pai de N
-    //Parâmetros: No - Nó onde começa a busca, N - nó que deve se buscar o pai
+    //Parâmetros: T - Nó onde começa a busca, N - nó que deve se buscar o pai
     private No getPai(No T, No N) {
         if (this.raiz == N) {
             return null;
@@ -406,5 +405,4 @@ public class BTree {
         }
         nElementos = 0;
     }
-
 }
